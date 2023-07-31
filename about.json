@@ -1,0 +1,28 @@
+{
+  "name": "quantum-network",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+  },
+  "color_schemes": {
+    "QNE": {
+      "primary": "000f28",
+      "secondary": "ffffff",
+      "tertiary": "1a9dd9",
+      "quaternary": "e65014",
+      "header_background": "ffffff",
+      "header_primary": "000f28",
+      "highlight": "f1e70d",
+      "selected": "e7ecf3",
+      "hover": "f2f3f4",
+      "danger": "e12134",
+      "success": "37aa32",
+      "love": "9b0a69"
+    }
+  }
+}
