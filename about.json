@@ -1,6 +1,9 @@
 {
   "name": "quantum-network",
   "component": false,
+  "assets": {
+    "fa-icon-external-link-alt": "assets/fa-icon-external-link-alt.svg"
+  },
   "color_schemes": {
     "QNE": {
       "primary": "0e121a",

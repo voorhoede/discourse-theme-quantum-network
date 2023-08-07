@@ -7,11 +7,22 @@
   border-radius: 4px;
 }
 
-.custom-header-links .headerLink {
+.custom-header-links .headerLink::before {
+  content: "";
+  display: inline-flex;
+  position: relative;
+  left: 0.4rem;
+  height: 0.8rem;
+  width: 0.8rem;
+  background-image: url($fa-icon-external-link-alt);
+}
+
+.custom-header-links .headerLink a {
   color: #000f28;
   text-decoration: underline;
 }
 
-.custom-header-links .headerLink:hover {
-  color: #1a9dd9;
+.custom-header-links .headerLink a:hover,
+.custom-header-links .headerLink a:focus {
+  text-decoration-color: #1a9dd9;
 }
