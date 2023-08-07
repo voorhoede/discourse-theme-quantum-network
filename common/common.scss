@@ -6,3 +6,12 @@
 .btn {
   border-radius: 4px;
 }
+
+.custom-header-links .headerLink {
+  color: #000f28;
+  text-decoration: underline;
+}
+
+.custom-header-links .headerLink:hover {
+  color: #1a9dd9;
+}
